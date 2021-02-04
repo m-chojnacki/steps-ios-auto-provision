@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'fastlane'
+gem "fastlane", :git => "https://github.com/m-chojnacki/fastlane.git", :branch => "joshdholtz-skip-2fa-upgrade"
 gem 'openssl'
 gem 'plist'
 gem 'xcodeproj'
