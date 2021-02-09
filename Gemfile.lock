@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/m-chojnacki/fastlane.git
-  revision: 5761cb24f371e71a2db80605ccbb545b56ff4ce7
-  branch: joshdholtz-skip-2fa-upgrade
+  remote: https://github.com/fastlane/fastlane.git
+  revision: 130733ecbb29d49c17cca8abad9a426e4af3e8fb
+  branch: master
   specs:
-    fastlane (2.172.0)
+    fastlane (2.173.0)
       CFPropertyList (>= 2.3, < 4.0.0)
       addressable (>= 2.3, < 3.0.0)
       artifactory (~> 3.0)
@@ -51,7 +51,7 @@ GEM
     ast (2.4.1)
     atomos (0.1.3)
     aws-eventstream (1.1.0)
-    aws-partitions (1.422.0)
+    aws-partitions (1.425.0)
     aws-sdk-core (3.112.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.239.0)
@@ -114,7 +114,7 @@ GEM
       webrick
     google-apis-iamcredentials_v1 (0.1.0)
       google-apis-core (~> 0.1)
-    google-apis-storage_v1 (0.1.0)
+    google-apis-storage_v1 (0.2.0)
       google-apis-core (~> 0.1)
     google-cloud-core (1.5.0)
       google-cloud-env (~> 1.0)
@@ -130,7 +130,7 @@ GEM
       google-cloud-core (~> 1.2)
       googleauth (~> 0.9)
       mini_mime (~> 1.0)
-    googleauth (0.15.0)
+    googleauth (0.15.1)
       faraday (>= 0.17.3, < 2.0)
       jwt (>= 1.4, < 3.0)
       memoist (~> 0.16)
